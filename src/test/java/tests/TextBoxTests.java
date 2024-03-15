@@ -80,7 +80,7 @@ public class TextBoxTests extends TestBase {
     @DisplayName("Check placeholders")
     @Story("Labels and placeholder on the form")
     @Tags({@Tag("manual"), @Tag("web")})
-    void fillFormManualTest() {
+    void testPlaceholders() {
         step("Open page /text-box");
         step("Find placeholder into class='col-md-3 col-sm-12'");
         step("Check placeholders");
