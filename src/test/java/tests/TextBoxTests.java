@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
@@ -19,6 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class TextBoxTests extends TestBase {
 
     @Test
+    @AllureId("31203")
     @DisplayName("Text box can be filled")
     @Story("Text box form")
     @Tags({@Tag("automated"), @Tag("web")})
@@ -44,6 +46,7 @@ public class TextBoxTests extends TestBase {
         });
     }
     @Test
+    @AllureId("31204")
     @DisplayName("Check title of page")
     @Story("Text box form")
     @Tags({@Tag("automated"), @Tag("web")})
@@ -57,6 +60,7 @@ public class TextBoxTests extends TestBase {
     }
 
     @Test
+    @AllureId("31231")
     @DisplayName("Check text from H1")
     @Story("Text box form")
     @Tags({@Tag("manual"), @Tag("web")})
@@ -67,6 +71,7 @@ public class TextBoxTests extends TestBase {
     }
 
     @Test
+    @AllureId("31232")
     @DisplayName("Check labels")
     @Story("Labels and placeholder on the form")
     @Tags({@Tag("manual"), @Tag("web")})
@@ -77,6 +82,7 @@ public class TextBoxTests extends TestBase {
     }
 
     @Test
+    @AllureId("31233")
     @DisplayName("Check placeholders")
     @Story("Labels and placeholder on the form")
     @Tags({@Tag("manual"), @Tag("web")})
