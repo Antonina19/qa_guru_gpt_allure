@@ -55,4 +55,34 @@ public class TextBoxTests extends TestBase {
             assertThat(actualTitle).isEqualTo(expectedTitle);
         });
     }
+
+    @Test
+    @DisplayName("Check text from H1")
+    @Story("Text box form")
+    @Tags({@Tag("manual"), @Tag("web")})
+    void testTextH1() {
+        step("Open page /text-box");
+        step("Find element H1");
+        step("Check text");
+    }
+
+    @Test
+    @DisplayName("Check labels")
+    @Story("Labels and placeholder on the form")
+    @Tags({@Tag("manual"), @Tag("web")})
+    void testLabels() {
+        step("Open page /text-box");
+        step("Find elements class='form-label'");
+        step("Check labels");
+    }
+
+    @Test
+    @DisplayName("Check placeholders")
+    @Story("Labels and placeholder on the form")
+    @Tags({@Tag("manual"), @Tag("web")})
+    void fillFormManualTest() {
+        step("Open page /text-box");
+        step("Find placeholder into class='col-md-3 col-sm-12'");
+        step("Check placeholders");
+    }
 }
