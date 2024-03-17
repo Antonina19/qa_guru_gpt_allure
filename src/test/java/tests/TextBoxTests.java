@@ -1,9 +1,6 @@
 package tests;
 
-import io.qameta.allure.AllureId;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Owner;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
@@ -60,6 +57,7 @@ public class TextBoxTests extends TestBase {
     }
 
     @Test
+    @Manual
     @AllureId("31231")
     @DisplayName("Check text from H1")
     @Story("Text box form")
@@ -71,6 +69,7 @@ public class TextBoxTests extends TestBase {
     }
 
     @Test
+    @Manual
     @AllureId("31232")
     @DisplayName("Check labels")
     @Story("Labels and placeholder on the form")
@@ -82,6 +81,7 @@ public class TextBoxTests extends TestBase {
     }
 
     @Test
+    @Manual
     @AllureId("31233")
     @DisplayName("Check placeholders")
     @Story("Labels and placeholder on the form")

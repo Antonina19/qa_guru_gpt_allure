@@ -33,6 +33,7 @@ dependencies {
             "io.qameta.allure:allure-selenide:$allureVersion",
             'com.github.javafaker:javafaker:1.0.2',
             'org.junit.jupiter:junit-jupiter:5.10.1',
+            'io.qameta.allure:allure-kotlin-commons:2.4.0'
     )
 }
 
